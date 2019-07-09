@@ -45,7 +45,7 @@ object Airport {
 /** 观察者基类
  *  目的地
  */
-class Aim<in T>(private var block: (T) -> Unit) {
+class Aim<T>(private var block: (T) -> Unit) {
     // 飞机降落
     fun arrive(plane: T) {
         try {
