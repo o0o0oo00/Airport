@@ -11,8 +11,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-//        testAirport()
-        testAnyDoor()
+        testAirport()
+//        testAnyDoor()
     }
 
     /**
@@ -55,7 +55,7 @@ class MainActivity : AppCompatActivity() {
      */
     private fun testAirport() {
         Airport.subscribeAim<String>(key1, Aim {
-            println("飞机 $key1 降落 1  : $it")
+            println("飞机 $key1 降落 1  : 携带的信息 $it")
         })
 
         Airport.subscribeAim<String>(key1, Aim {
