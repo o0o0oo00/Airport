@@ -1,6 +1,11 @@
 # AirportDemo
 观察者模式-推模型/拉模型  实现消息/事件的传递  代替EventBus（ 简易情况下）
 
+只是一种新奇的用法，可能会存在问题，欢迎提ISSUES/PULL REQUESTS
+
+[![](https://jitpack.io/v/o0o0oo00/Airport.svg)](https://jitpack.io/#o0o0oo00/Airport)
+
+
 **推模型：事先注册观察者，然后由被观察者统一发送信息给观察者  
 拉模型：观察者后来注册，依然可以主动去被观察者中取出最新数据**
 
